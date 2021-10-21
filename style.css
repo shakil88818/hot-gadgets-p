@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-bottom: 100px;
+}
+
+.back-img {
+    background-image: url("img/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 4px 9px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.product-margin {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+p {
+    color: darkgray;
+}
+
+h6 {
+    color: rgb(247, 92, 144)
+}
+
+.cat3 img {
+    width: 500px;
+}
+
+.cat1:hover img {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.cat2-1:hover img {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.cat3:hover img {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.cat2-2:hover img {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.margin-img {
+    padding: 15px 10px;
+}
+
+.cat-text {
+    padding: 50px 0;
+}
+
+.cat-text h3 {
+    border-bottom: 5px solid rgb(233, 108, 150);
+    padding-bottom: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+}
